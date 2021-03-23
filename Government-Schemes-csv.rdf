@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+<rdf:Description rdf:about="http://covid19/industry/0">
+	<Industry xmlns="http://covid19/%09﻿">Manufacturing</Industry>
+	<Scheme xmlns="http://covid19/Coronavirus%20Job%20Retention%20">63.5%</Scheme>
+	<holiday xmlns="http://covid19/Business%20rates%20">14.0%</holiday>
+	<payments xmlns="http://covid19/Deferring%20VAT%20">44.3%</payments>
+	<scheme xmlns="http://covid19/%09HMRC%20Time%20To%20Pay%20">19.3%</scheme>
+	<schemes xmlns="http://covid19/Government-funded%20small%20business%20grant%20or%20loan%20">4.8%</schemes>
+	<agreements xmlns="http://covid19/Accredited%20finance%20">8.6%</agreements>
+	<initiatives xmlns="http://covid19/%09We%20have%20not%20applied%20for%20any%20of%20these%20">26.0%</initiatives>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://covid19/industry/1">
+	<Industry xmlns="http://covid19/%09﻿">Water Supply, Sewerage, Waste Management And Remediation Activities</Industry>
+	<Scheme xmlns="http://covid19/Coronavirus%20Job%20Retention%20">68.6%</Scheme>
+	<holiday xmlns="http://covid19/Business%20rates%20">15.7%</holiday>
+	<payments xmlns="http://covid19/Deferring%20VAT%20">57.1%</payments>
+	<scheme xmlns="http://covid19/%09HMRC%20Time%20To%20Pay%20">21.4%</scheme>
+	<schemes xmlns="http://covid19/Government-funded%20small%20business%20grant%20or%20loan%20">5.7%</schemes>
+	<agreements xmlns="http://covid19/Accredited%20finance%20">10.0%</agreements>
+	<initiatives xmlns="http://covid19/%09We%20have%20not%20applied%20for%20any%20of%20these%20">21.4%</initiatives>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://covid19/industry/2">
+	<holiday xmlns="http://covid19/Business%20rates%20">13.5%</holiday>
+	<Industry xmlns="http://covid19/%09﻿">Construction</Industry>
+	<Scheme xmlns="http://covid19/Coronavirus%20Job%20Retention%20">80.9%</Scheme>
+	<payments xmlns="http://covid19/Deferring%20VAT%20">59.9%</payments>
+	<scheme xmlns="http://covid19/%09HMRC%20Time%20To%20Pay%20">28.7%</scheme>
+	<schemes xmlns="http://covid19/Government-funded%20small%20business%20grant%20or%20loan%20">6.0%</schemes>
+	<agreements xmlns="http://covid19/Accredited%20finance%20">9.6%</agreements>
+	<initiatives xmlns="http://covid19/%09We%20have%20not%20applied%20for%20any%20of%20these%20">11.7%</initiatives>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://covid19/industry/3">
+	<Scheme xmlns="http://covid19/Coronavirus%20Job%20Retention%20">72.6%</Scheme>
+	<Industry xmlns="http://covid19/%09﻿">Wholesale And Retail Trade; Repair Of Motor Vehicles And Motorcycles</Industry>
+	<holiday xmlns="http://covid19/Business%20rates%20">44.6%</holiday>
+	<payments xmlns="http://covid19/Deferring%20VAT%20">60.1%</payments>
+	<scheme xmlns="http://covid19/%09HMRC%20Time%20To%20Pay%20">25.0%</scheme>
+	<schemes xmlns="http://covid19/Government-funded%20small%20business%20grant%20or%20loan%20">13.3%</schemes>
+	<agreements xmlns="http://covid19/Accredited%20finance%20">9.0%</agreements>
+	<initiatives xmlns="http://covid19/%09We%20have%20not%20applied%20for%20any%20of%20these%20">15.5%</initiatives>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://covid19/industry/4">
+	<Industry xmlns="http://covid19/%09﻿">Accommodation And Food Service Activities</Industry>
+	<Scheme xmlns="http://covid19/Coronavirus%20Job%20Retention%20">87.1%</Scheme>
+	<holiday xmlns="http://covid19/Business%20rates%20">78.2%</holiday>
+	<payments xmlns="http://covid19/Deferring%20VAT%20">80.6%</payments>
+	<scheme xmlns="http://covid19/%09HMRC%20Time%20To%20Pay%20">42.2%</scheme>
+	<schemes xmlns="http://covid19/Government-funded%20small%20business%20grant%20or%20loan%20">24.9%</schemes>
+	<agreements xmlns="http://covid19/Accredited%20finance%20">20.6%</agreements>
+	<initiatives xmlns="http://covid19/%09We%20have%20not%20applied%20for%20any%20of%20these%20">2.7%</initiatives>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://covid19/industry/5">
+	<Industry xmlns="http://covid19/%09﻿">Transportation And Storage</Industry>
+	<Scheme xmlns="http://covid19/Coronavirus%20Job%20Retention%20">76.6%</Scheme>
+	<holiday xmlns="http://covid19/Business%20rates%20">24.1%</holiday>
+	<payments xmlns="http://covid19/Deferring%20VAT%20">55.3%</payments>
+	<scheme xmlns="http://covid19/%09HMRC%20Time%20To%20Pay%20">24.8%</scheme>
+	<schemes xmlns="http://covid19/Government-funded%20small%20business%20grant%20or%20loan%20">6.4%</schemes>
+	<agreements xmlns="http://covid19/Accredited%20finance%20">9.2%</agreements>
+	<initiatives xmlns="http://covid19/%09We%20have%20not%20applied%20for%20any%20of%20these%20">16.7%</initiatives>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://covid19/industry/6">
+	<Industry xmlns="http://covid19/%09﻿">Information And Communication</Industry>
+	<Scheme xmlns="http://covid19/Coronavirus%20Job%20Retention%20">40.1%</Scheme>
+	<holiday xmlns="http://covid19/Business%20rates%20">8.2%</holiday>
+	<payments xmlns="http://covid19/Deferring%20VAT%20">47.4%</payments>
+	<scheme xmlns="http://covid19/%09HMRC%20Time%20To%20Pay%20">13.7%</scheme>
+	<schemes xmlns="http://covid19/Government-funded%20small%20business%20grant%20or%20loan%20">3.6%</schemes>
+	<agreements xmlns="http://covid19/Accredited%20finance%20">3.8%</agreements>
+	<initiatives xmlns="http://covid19/%09We%20have%20not%20applied%20for%20any%20of%20these%20">37.3%</initiatives>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://covid19/industry/7">
+	<Industry xmlns="http://covid19/%09﻿">Professional, Scientific And Technical Activities</Industry>
+	<Scheme xmlns="http://covid19/Coronavirus%20Job%20Retention%20">62.2%</Scheme>
+	<holiday xmlns="http://covid19/Business%20rates%20">12.6%</holiday>
+	<payments xmlns="http://covid19/Deferring%20VAT%20">66.2%</payments>
+	<scheme xmlns="http://covid19/%09HMRC%20Time%20To%20Pay%20">18.6%</scheme>
+	<schemes xmlns="http://covid19/Government-funded%20small%20business%20grant%20or%20loan%20">4.9%</schemes>
+	<agreements xmlns="http://covid19/Accredited%20finance%20">8.1%</agreements>
+	<initiatives xmlns="http://covid19/%09We%20have%20not%20applied%20for%20any%20of%20these%20">20.7%</initiatives>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://covid19/industry/8">
+	<Industry xmlns="http://covid19/%09﻿">Administrative And Support Service Activities</Industry>
+	<Scheme xmlns="http://covid19/Coronavirus%20Job%20Retention%20">75.7%</Scheme>
+	<holiday xmlns="http://covid19/Business%20rates%20">20.1%</holiday>
+	<payments xmlns="http://covid19/Deferring%20VAT%20">63.7%</payments>
+	<scheme xmlns="http://covid19/%09HMRC%20Time%20To%20Pay%20">20.5%</scheme>
+	<schemes xmlns="http://covid19/Government-funded%20small%20business%20grant%20or%20loan%20">21.8%</schemes>
+	<agreements xmlns="http://covid19/Accredited%20finance%20">12.3%</agreements>
+	<initiatives xmlns="http://covid19/%09We%20have%20not%20applied%20for%20any%20of%20these%20">13.9%</initiatives>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://covid19/industry/9">
+	<Industry xmlns="http://covid19/%09﻿">Education</Industry>
+	<Scheme xmlns="http://covid19/Coronavirus%20Job%20Retention%20">40.5%</Scheme>
+	<holiday xmlns="http://covid19/Business%20rates%20">8.5%</holiday>
+	<payments xmlns="http://covid19/Deferring%20VAT%20">26.3%</payments>
+	<scheme xmlns="http://covid19/%09HMRC%20Time%20To%20Pay%20">7.0%</scheme>
+	<schemes xmlns="http://covid19/Government-funded%20small%20business%20grant%20or%20loan%20">2.2%</schemes>
+	<agreements xmlns="http://covid19/Accredited%20finance%20">2.8%</agreements>
+	<initiatives xmlns="http://covid19/%09We%20have%20not%20applied%20for%20any%20of%20these%20">48.4%</initiatives>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://covid19/industry/10">
+	<Industry xmlns="http://covid19/%09﻿">Human Health And Social Work Activities</Industry>
+	<Scheme xmlns="http://covid19/Coronavirus%20Job%20Retention%20">34.5%</Scheme>
+	<holiday xmlns="http://covid19/Business%20rates%20">13.4%</holiday>
+	<payments xmlns="http://covid19/Deferring%20VAT%20">16.2%</payments>
+	<scheme xmlns="http://covid19/%09HMRC%20Time%20To%20Pay%20">6.3%</scheme>
+	<schemes xmlns="http://covid19/Government-funded%20small%20business%20grant%20or%20loan%20">10.6%</schemes>
+	<agreements xmlns="http://covid19/Accredited%20finance%20">2.8%</agreements>
+	<initiatives xmlns="http://covid19/%09We%20have%20not%20applied%20for%20any%20of%20these%20">55.6%</initiatives>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://covid19/industry/11">
+	<Industry xmlns="http://covid19/%09﻿">Arts, Entertainment And Recreation</Industry>
+	<Scheme xmlns="http://covid19/Coronavirus%20Job%20Retention%20">76.3%</Scheme>
+	<holiday xmlns="http://covid19/Business%20rates%20">57.2%</holiday>
+	<payments xmlns="http://covid19/Deferring%20VAT%20">61.2%</payments>
+	<scheme xmlns="http://covid19/%09HMRC%20Time%20To%20Pay%20">33.1%</scheme>
+	<schemes xmlns="http://covid19/Government-funded%20small%20business%20grant%20or%20loan%20">18.0%</schemes>
+	<agreements xmlns="http://covid19/Accredited%20finance%20">18.3%</agreements>
+	<initiatives xmlns="http://covid19/%09We%20have%20not%20applied%20for%20any%20of%20these%20">12.6%</initiatives>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://covid19/industry/12">
+	<Industry xmlns="http://covid19/%09﻿">All Industries</Industry>
+	<Scheme xmlns="http://covid19/Coronavirus%20Job%20Retention%20">67.2%</Scheme>
+	<holiday xmlns="http://covid19/Business%20rates%20">27.4%</holiday>
+	<payments xmlns="http://covid19/Deferring%20VAT%20">56.4%</payments>
+	<scheme xmlns="http://covid19/%09HMRC%20Time%20To%20Pay%20">22.3%</scheme>
+	<schemes xmlns="http://covid19/Government-funded%20small%20business%20grant%20or%20loan%20">11.2%</schemes>
+	<agreements xmlns="http://covid19/Accredited%20finance%20">9.9%</agreements>
+	<initiatives xmlns="http://covid19/%09We%20have%20not%20applied%20for%20any%20of%20these%20">20.7%</initiatives>
+</rdf:Description>
+
+</rdf:RDF>
