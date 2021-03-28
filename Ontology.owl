@@ -1,0 +1,438 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#"
+     xml:base="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata"
+     xmlns:dc1="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#dc:"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf2="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#rdf:"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:comp6214opendata="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Country -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Country">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasTradingStatus"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Number_of_Responses_Industry -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Number_of_Responses_Industry">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasResponserate"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Number_of_Responses_Workforcesize -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Number_of_Responses_Workforcesize">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasResponserate"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Proportion_of_Responses_Industry -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Proportion_of_Responses_Industry">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasResponserate"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Proportion_of_Responses_Workforcesize -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Proportion_of_Responses_Workforcesize">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasResponserate"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#SampleIndustry -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#SampleIndustry">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasSampleSize"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#SampleWorkforcesize -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#SampleWorkforcesize">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasSampleSize"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#WorkforceSize -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#WorkforceSize">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasTradingStatus"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasGovernmentScheme1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasGovernmentScheme1">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasGovernmentScheme2"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasGovernmentScheme3"/>
+        <owl:inverseOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasGovernmentScheme2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasGovernmentScheme2">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasGovernmentScheme3"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasGovernmentScheme3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasGovernmentScheme3">
+        <owl:equivalentProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasResponserate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasResponserate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasSampleSize -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasSampleSize">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasTradingStatus -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasTradingStatus">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#obIndustry1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#obIndustry1">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasGovernmentScheme1"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#obIndustry2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#obIndustry2">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasGovernmentScheme2"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#obIndustry3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#obIndustry3">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasGovernmentScheme3"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#obWokeforcesize3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#obWokeforcesize3">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasGovernmentScheme3"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#WorkforceSize3"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#obWorkforcesize1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#obWorkforcesize1">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasGovernmentScheme1"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#obWorkforcesize2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#obWorkforcesize2">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasGovernmentScheme2"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#industry -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#industry">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#Name"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#value">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#dc:description -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#dc:description">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#dc:title -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#dc:title">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#rdf:value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#rdf:value">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#WorkforceSize3"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#GovernmentSchemes1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#GovernmentSchemes1">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#GovernmentSchemes3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#GovernmentSchemes2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#GovernmentSchemes2">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#GovernmentSchemes3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#GovernmentSchemes3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#GovernmentSchemes3">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#ResponseRate"/>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#SampleSize"/>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TradingStatus"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#GovernmentSchemes1"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#WorkforceSize3"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Workforcesize1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#GovernmentSchemes2"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry3"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#WorkforceSize3"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Workforcesize2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#GovernmentSchemes3"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Number_of_Responses_Industry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Number_of_Responses_Industry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#ResponseRate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Number_of_Responses_workforcesize -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Number_of_Responses_workforcesize">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#ResponseRate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Proportion_of_Responses_Industry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Proportion_of_Responses_Industry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#ResponseRate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Proportion_of_Responses_workforcesize -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Proportion_of_Responses_workforcesize">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#ResponseRate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#ResponseRate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#ResponseRate"/>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#SampleSize -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#SampleSize"/>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#SampleSize"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Workforce_Size"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Workforce_Size -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Workforce_Size">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#SampleSize"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TradingStatus"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TradingStatus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TradingStatus"/>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#WorkforceSize3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#WorkforceSize3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#GovernmentSchemes3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Workforcesize1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Workforcesize1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#GovernmentSchemes1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Workforcesize2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Workforcesize2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#GovernmentSchemes2"/>
+    </owl:Class>
+    
+
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

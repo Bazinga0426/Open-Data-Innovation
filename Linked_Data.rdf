@@ -1,0 +1,2009 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/whg04/ontologies/2021/2/untitled-ontology-3#"
+     xml:base="http://www.semanticweb.org/whg04/ontologies/2021/2/untitled-ontology-3"
+     xmlns:dc1="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#dc:"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf1="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#rdf:"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:comp6214opendata="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Country -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Country">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasTradingStatus"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Number_of_Responses_Industry -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Number_of_Responses_Industry">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasResponserate"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Number_of_Responses_Workforcesize -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Number_of_Responses_Workforcesize">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasResponserate"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Proportion_of_Responses_Industry -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Proportion_of_Responses_Industry">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasResponserate"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Proportion_of_Responses_Workforcesize -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Proportion_of_Responses_Workforcesize">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasResponserate"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#SampleIndustry -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#SampleIndustry">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasSampleSize"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#SampleWorkforcesize -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#SampleWorkforcesize">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasSampleSize"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#WorkforceSize -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#WorkforceSize">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasTradingStatus"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasGovernmentScheme1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasGovernmentScheme1">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasGovernmentScheme2"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasGovernmentScheme3"/>
+        <owl:inverseOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasGovernmentScheme2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasGovernmentScheme2">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasGovernmentScheme3"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasGovernmentScheme3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasGovernmentScheme3">
+        <owl:equivalentProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasResponserate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasResponserate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasSampleSize -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasSampleSize">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasTradingStatus -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasTradingStatus">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#obIndustry1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#obIndustry1">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasGovernmentScheme1"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#obIndustry2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#obIndustry2">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasGovernmentScheme2"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#obIndustry3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#obIndustry3">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasGovernmentScheme3"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#obWokeforcesize3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#obWokeforcesize3">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasGovernmentScheme3"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#WorkforceSize3"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#obWorkforcesize1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#obWorkforcesize1">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasGovernmentScheme1"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#obWorkforcesize2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#obWorkforcesize2">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#hasGovernmentScheme2"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#industry -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#industry">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#Name"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#value">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#dc:description -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#dc:description">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#dc:title -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#dc:title">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#rdf:value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#rdf:value">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#WorkforceSize3"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#GovernmentSchemes1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#GovernmentSchemes1">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#GovernmentSchemes3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#GovernmentSchemes2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#GovernmentSchemes2">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#GovernmentSchemes3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#GovernmentSchemes3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#GovernmentSchemes3">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#ResponseRate"/>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#SampleSize"/>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TradingStatus"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#GovernmentSchemes1"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#WorkforceSize3"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Workforcesize1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#GovernmentSchemes2"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry3"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#WorkforceSize3"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Workforcesize2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#GovernmentSchemes3"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Number_of_Responses_Industry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Number_of_Responses_Industry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#ResponseRate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Number_of_Responses_workforcesize -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Number_of_Responses_workforcesize">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#ResponseRate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Proportion_of_Responses_Industry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Proportion_of_Responses_Industry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#ResponseRate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Proportion_of_Responses_workforcesize -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Proportion_of_Responses_workforcesize">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#ResponseRate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#ResponseRate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#ResponseRate"/>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#SampleSize -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#SampleSize"/>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#SampleSize"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Workforce_Size"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Workforce_Size -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Workforce_Size">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#SampleSize"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TradingStatus"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TradingStatus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TradingStatus"/>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#WorkforceSize3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#WorkforceSize3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#GovernmentSchemes3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Workforcesize1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Workforcesize1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#GovernmentSchemes1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Workforcesize2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Workforcesize2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#GovernmentSchemes2"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#AccommodationAndFoodServiceActivities -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#AccommodationAndFoodServiceActivities">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry2"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry3"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <comp6214opendata:industry rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Accommodation And Food Service Activities</comp6214opendata:industry>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#AccreditedFinanceAgreements -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#AccreditedFinanceAgreements">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry2"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry3"/>
+        <dc1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Accredited finance agreements</dc1:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#AdministrativeAndSupportServiceActivities -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#AdministrativeAndSupportServiceActivities">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry2"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry3"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <comp6214opendata:industry rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Administrative And Support Service Activities</comp6214opendata:industry>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#AllIndustries -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#AllIndustries">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry2"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry3"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <comp6214opendata:industry rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All Industries</comp6214opendata:industry>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#BusinessRatesHoliday -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#BusinessRatesHoliday">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry2"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry3"/>
+        <dc1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Business rates holiday</dc1:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Construction -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Construction">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry2"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry3"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <comp6214opendata:industry rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Construction</comp6214opendata:industry>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#ContinuingToTrade -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#ContinuingToTrade">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <dc1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Continuing to trade</dc1:title>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Continuing to trade</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#CoronavirusJobRetentionScheme -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#CoronavirusJobRetentionScheme">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry2"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry3"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#WorkforceSize3"/>
+        <dc1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coronavirus Job Retention Scheme</dc1:title>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coronavirus Job Retention Scheme</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#DeferringVATPayments -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#DeferringVATPayments">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry2"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry3"/>
+        <dc1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deferring VAT payments</dc1:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Education -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Education">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry2"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry3"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <comp6214opendata:industry rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Education</comp6214opendata:industry>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Government-fundedSmallBusinessGrantOrLoanSchemes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Government-fundedSmallBusinessGrantOrLoanSchemes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry2"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry3"/>
+        <dc1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Government-funded small business grant or loan schemes</dc1:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#HMRCTimeToPayScheme -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#HMRCTimeToPayScheme">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry2"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry3"/>
+        <dc1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMRC Time To Pay scheme</dc1:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#HasTemporarilyClosedOrTemporarilyPausedTrading -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#HasTemporarilyClosedOrTemporarilyPausedTrading">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <dc1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has temporarily closed or temporarily paused trading</dc1:title>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has temporarily closed or temporarily paused trading</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#HumanHealthAndSocialWorkActivities -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#HumanHealthAndSocialWorkActivities">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry2"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry3"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <comp6214opendata:industry rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Health And Social Work Activities</comp6214opendata:industry>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry2"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry3"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <comp6214opendata:industry rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Industry</comp6214opendata:industry>
+        <dc1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Industry</dc1:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#InformationAndCommunication -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#InformationAndCommunication">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry2"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry3"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <comp6214opendata:industry rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information And Communication</comp6214opendata:industry>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Manufacturing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Manufacturing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry2"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry3"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <comp6214opendata:industry rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manufacturing</comp6214opendata:industry>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#MiningAndQuarrying -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#MiningAndQuarrying">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <comp6214opendata:industry rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mining And Quarrying</comp6214opendata:industry>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#NoneOfTheAbove -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#NoneOfTheAbove">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry3"/>
+        <dc1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None of the above</dc1:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#OtherServiceActivities -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#OtherServiceActivities">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <comp6214opendata:industry rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other Service Activities</comp6214opendata:industry>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#RealEstateActivities -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#RealEstateActivities">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <comp6214opendata:industry rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Estate Activities</comp6214opendata:industry>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Total -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Total">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Number_of_Responses_workforcesize"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <dc1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Total</dc1:title>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Total</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TransportationAndStorage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TransportationAndStorage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry2"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry3"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <comp6214opendata:industry rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transportation And Storage</comp6214opendata:industry>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#WorkforceSize0-99 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#WorkforceSize0-99">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Number_of_Responses_workforcesize"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <dc1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Workforce Size 0 - 99</dc1:title>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Workforce Size 0 - 99</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#WorkforceSize100-249 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#WorkforceSize100-249">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Number_of_Responses_workforcesize"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <dc1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Workforce Size 100 - 249</dc1:title>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Workforce Size 100 - 249</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.0">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.0030000000000000027 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.0030000000000000027">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0030000000000000027</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.0040000000000000036 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.0040000000000000036">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0040000000000000036</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.0048768000000000145 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.0048768000000000145">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0048768000000000145</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.0050000000000000044 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.0050000000000000044">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0050000000000000044</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.006000000000000005 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.006000000000000005">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.006000000000000005</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.007000000000000006 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.007000000000000006">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.007000000000000006</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.01200000000000001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.01200000000000001">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.01200000000000001</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.013000000000000012 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.013000000000000012">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.013000000000000012</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.03 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.03">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.03</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.0451232 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.0451232">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0451232</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.049 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.049">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.049</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.081 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.081">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.081</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.085 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.085">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry2"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <rdf1:value></rdf1:value>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.085</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.098 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.098">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry2"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.098</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.1</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.126 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.126">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.126</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.154 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.154">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry2"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.154</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.182 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.182">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.182</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.199 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.199">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry2"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.199</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.205 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.205">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.205</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.206 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.206">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.206</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.216 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.216">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry2"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.216</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.219 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.219">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry2"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.219</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.222 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.222">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry2"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.222</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.228 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.228">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.228</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.239 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.239">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry2"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.239</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.243 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.243">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.243</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.251 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.251">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry2"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.251</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.26 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.26">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry3"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.26</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.261 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.261">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.261</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.28 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.28">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry2"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.28</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.286 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.286">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry2"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.286</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.287 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.287">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry2"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.287</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.291 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.291">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry2"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.291</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.31 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.31">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry3"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.31</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.321 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.321">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry3"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.321</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.35 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.35">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry3"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.35</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.355 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.355">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry3"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.355</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.367 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.367">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#WorkforceSize3"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.367</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.368 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.368">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry3"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#WorkforceSize3"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.368</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.37 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.37">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#WorkforceSize3"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.37</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.383 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.383">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry3"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.383</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.386 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.386">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry3"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.386</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.401 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.401">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry3"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.401</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.404 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.404">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry3"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.404</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.41 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.41">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry3"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.41</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.429 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.429">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry3"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.429</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.459 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.459">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry3"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.459</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.732 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.732">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.732</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.752 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.752">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.752</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.767 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.767">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.767</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.79 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.79">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.79</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.795 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.795">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.795</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.806 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.806">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.806</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.868 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.868">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.868</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.9</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.915 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.915">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.915</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.938 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.938">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.938</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.95 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.95">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.95</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.967 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#0.967">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.967</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#1034 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#1034">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1034</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#10442 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#10442">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10442</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#1072 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#1072">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1072</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#108 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#108">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">108</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#112 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#112">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">112</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#1180 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#1180">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1180</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#1216 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#1216">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1216</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#1287 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#1287">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1287</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#13">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#130 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#130">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">130</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#1303 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#1303">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1303</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#1326 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#1326">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1326</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#137 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#137">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">137</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#1370 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#1370">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1370</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#145 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#145">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">145</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#149 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#149">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">149</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#15 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#15">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#1634 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#1634">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1634</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#17623 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#17623">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17623</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#1785 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#1785">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1785</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#1819 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#1819">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1819</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#200 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#200">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">200</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#201 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#201">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">201</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#2023 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#2023">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#2305 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#2305">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Number_of_Responses_workforcesize"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2305</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#2359 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#2359">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2359</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#28 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#28">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#29 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#29">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#294 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#294">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">294</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#2999 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#2999">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2999</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#303 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#303">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">303</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#312 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#312">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">312</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#3155 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#3155">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3155</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#335 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#335">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">335</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#3452 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#3452">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Number_of_Responses_workforcesize"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3452</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#357 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#357">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Number_of_Responses_workforcesize"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">357</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#415 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#415">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">415</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#422 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#422">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">422</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#457 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#457">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">457</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#528 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#528">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">528</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#6114 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#6114">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Number_of_Responses_workforcesize"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6114</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#659 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#659">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">659</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#71 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#71">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">71</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#718 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#718">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">718</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#7180.0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#7180.0">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7180.0</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#7181 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#7181">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7181</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#720 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#720">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">720</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#722 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#722">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">722</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#760 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#760">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">760</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#794 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#794">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">794</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#863 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#863">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">863</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#88 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#88">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">88</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#9116 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#9116">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9116</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#975 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#975">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">975</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Arts,EntertainmentAndRecreation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Arts,EntertainmentAndRecreation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry2"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry3"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <comp6214opendata:industry rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arts, Entertainment And Recreation</comp6214opendata:industry>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#HasPermanentlyCeasedTrading** -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#HasPermanentlyCeasedTrading**">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <dc1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has permanently ceased trading **</dc1:title>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has permanently ceased trading **</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Professional,ScientificAndTechnicalActivities -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Professional,ScientificAndTechnicalActivities">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry2"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry3"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <comp6214opendata:industry rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Professional, Scientific And Technical Activities</comp6214opendata:industry>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#WaterSupply,Sewerage,WasteManagementAndRemediationActivities -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#WaterSupply,Sewerage,WasteManagementAndRemediationActivities">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry2"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry3"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <comp6214opendata:industry rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water Supply, Sewerage, Waste Management And Remediation Activities</comp6214opendata:industry>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Wehaven&apos;tReceivedAnyThatWeAppliedFor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Wehaven&apos;tReceivedAnyThatWeAppliedFor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry2"/>
+        <dc1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We haven&apos;t received any that we applied for</dc1:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry2"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Industry3"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TotalNumberofSurveysSentOut"/>
+        <comp6214opendata:industry rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wholesale And Retail Trade; Repair Of Motor Vehicles And Motorcycles</comp6214opendata:industry>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#WorkforceSize250+ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#WorkforceSize250+">
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Number_of_Responses_workforcesize"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Sample_Size_Industry"/>
+        <dc1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Workforce Size 250 +</dc1:title>
+        <rdf1:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Workforce Size 250 +</rdf1:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#GovernmentSchemes1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#GovernmentSchemes2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#GovernmentSchemes3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#ResponseRate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#SampleSize"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#TradingStatus"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Number_of_Responses_Industry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Number_of_Responses_workforcesize"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Proportion_of_Responses_Industry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/whg04/ontologies/2021/2/comp6214opendata#Proportion_of_Responses_workforcesize"/>
+        </owl:members>
+    </rdf:Description>
+	
+<rdf:Description rdf:about="http://covid19/industry/0">
+	<Industry xmlns="http://covid19/%09﻿">Manufacturing</Industry>
+	<Scheme xmlns="http://covid19/Coronavirus%20Job%20Retention%20">63.5%</Scheme>
+	<holiday xmlns="http://covid19/Business%20rates%20">14.0%</holiday>
+	<payments xmlns="http://covid19/Deferring%20VAT%20">44.3%</payments>
+	<scheme xmlns="http://covid19/%09HMRC%20Time%20To%20Pay%20">19.3%</scheme>
+	<schemes xmlns="http://covid19/Government-funded%20small%20business%20grant%20or%20loan%20">4.8%</schemes>
+	<agreements xmlns="http://covid19/Accredited%20finance%20">8.6%</agreements>
+	<initiatives xmlns="http://covid19/%09We%20have%20not%20applied%20for%20any%20of%20these%20">26.0%</initiatives>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://covid19/industry/1">
+	<Industry xmlns="http://covid19/%09﻿">Water Supply, Sewerage, Waste Management And Remediation Activities</Industry>
+	<Scheme xmlns="http://covid19/Coronavirus%20Job%20Retention%20">68.6%</Scheme>
+	<holiday xmlns="http://covid19/Business%20rates%20">15.7%</holiday>
+	<payments xmlns="http://covid19/Deferring%20VAT%20">57.1%</payments>
+	<scheme xmlns="http://covid19/%09HMRC%20Time%20To%20Pay%20">21.4%</scheme>
+	<schemes xmlns="http://covid19/Government-funded%20small%20business%20grant%20or%20loan%20">5.7%</schemes>
+	<agreements xmlns="http://covid19/Accredited%20finance%20">10.0%</agreements>
+	<initiatives xmlns="http://covid19/%09We%20have%20not%20applied%20for%20any%20of%20these%20">21.4%</initiatives>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://covid19/industry/2">
+	<holiday xmlns="http://covid19/Business%20rates%20">13.5%</holiday>
+	<Industry xmlns="http://covid19/%09﻿">Construction</Industry>
+	<Scheme xmlns="http://covid19/Coronavirus%20Job%20Retention%20">80.9%</Scheme>
+	<payments xmlns="http://covid19/Deferring%20VAT%20">59.9%</payments>
+	<scheme xmlns="http://covid19/%09HMRC%20Time%20To%20Pay%20">28.7%</scheme>
+	<schemes xmlns="http://covid19/Government-funded%20small%20business%20grant%20or%20loan%20">6.0%</schemes>
+	<agreements xmlns="http://covid19/Accredited%20finance%20">9.6%</agreements>
+	<initiatives xmlns="http://covid19/%09We%20have%20not%20applied%20for%20any%20of%20these%20">11.7%</initiatives>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://covid19/industry/3">
+	<Scheme xmlns="http://covid19/Coronavirus%20Job%20Retention%20">72.6%</Scheme>
+	<Industry xmlns="http://covid19/%09﻿">Wholesale And Retail Trade; Repair Of Motor Vehicles And Motorcycles</Industry>
+	<holiday xmlns="http://covid19/Business%20rates%20">44.6%</holiday>
+	<payments xmlns="http://covid19/Deferring%20VAT%20">60.1%</payments>
+	<scheme xmlns="http://covid19/%09HMRC%20Time%20To%20Pay%20">25.0%</scheme>
+	<schemes xmlns="http://covid19/Government-funded%20small%20business%20grant%20or%20loan%20">13.3%</schemes>
+	<agreements xmlns="http://covid19/Accredited%20finance%20">9.0%</agreements>
+	<initiatives xmlns="http://covid19/%09We%20have%20not%20applied%20for%20any%20of%20these%20">15.5%</initiatives>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://covid19/industry/4">
+	<Industry xmlns="http://covid19/%09﻿">Accommodation And Food Service Activities</Industry>
+	<Scheme xmlns="http://covid19/Coronavirus%20Job%20Retention%20">87.1%</Scheme>
+	<holiday xmlns="http://covid19/Business%20rates%20">78.2%</holiday>
+	<payments xmlns="http://covid19/Deferring%20VAT%20">80.6%</payments>
+	<scheme xmlns="http://covid19/%09HMRC%20Time%20To%20Pay%20">42.2%</scheme>
+	<schemes xmlns="http://covid19/Government-funded%20small%20business%20grant%20or%20loan%20">24.9%</schemes>
+	<agreements xmlns="http://covid19/Accredited%20finance%20">20.6%</agreements>
+	<initiatives xmlns="http://covid19/%09We%20have%20not%20applied%20for%20any%20of%20these%20">2.7%</initiatives>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://covid19/industry/5">
+	<Industry xmlns="http://covid19/%09﻿">Transportation And Storage</Industry>
+	<Scheme xmlns="http://covid19/Coronavirus%20Job%20Retention%20">76.6%</Scheme>
+	<holiday xmlns="http://covid19/Business%20rates%20">24.1%</holiday>
+	<payments xmlns="http://covid19/Deferring%20VAT%20">55.3%</payments>
+	<scheme xmlns="http://covid19/%09HMRC%20Time%20To%20Pay%20">24.8%</scheme>
+	<schemes xmlns="http://covid19/Government-funded%20small%20business%20grant%20or%20loan%20">6.4%</schemes>
+	<agreements xmlns="http://covid19/Accredited%20finance%20">9.2%</agreements>
+	<initiatives xmlns="http://covid19/%09We%20have%20not%20applied%20for%20any%20of%20these%20">16.7%</initiatives>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://covid19/industry/6">
+	<Industry xmlns="http://covid19/%09﻿">Information And Communication</Industry>
+	<Scheme xmlns="http://covid19/Coronavirus%20Job%20Retention%20">40.1%</Scheme>
+	<holiday xmlns="http://covid19/Business%20rates%20">8.2%</holiday>
+	<payments xmlns="http://covid19/Deferring%20VAT%20">47.4%</payments>
+	<scheme xmlns="http://covid19/%09HMRC%20Time%20To%20Pay%20">13.7%</scheme>
+	<schemes xmlns="http://covid19/Government-funded%20small%20business%20grant%20or%20loan%20">3.6%</schemes>
+	<agreements xmlns="http://covid19/Accredited%20finance%20">3.8%</agreements>
+	<initiatives xmlns="http://covid19/%09We%20have%20not%20applied%20for%20any%20of%20these%20">37.3%</initiatives>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://covid19/industry/7">
+	<Industry xmlns="http://covid19/%09﻿">Professional, Scientific And Technical Activities</Industry>
+	<Scheme xmlns="http://covid19/Coronavirus%20Job%20Retention%20">62.2%</Scheme>
+	<holiday xmlns="http://covid19/Business%20rates%20">12.6%</holiday>
+	<payments xmlns="http://covid19/Deferring%20VAT%20">66.2%</payments>
+	<scheme xmlns="http://covid19/%09HMRC%20Time%20To%20Pay%20">18.6%</scheme>
+	<schemes xmlns="http://covid19/Government-funded%20small%20business%20grant%20or%20loan%20">4.9%</schemes>
+	<agreements xmlns="http://covid19/Accredited%20finance%20">8.1%</agreements>
+	<initiatives xmlns="http://covid19/%09We%20have%20not%20applied%20for%20any%20of%20these%20">20.7%</initiatives>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://covid19/industry/8">
+	<Industry xmlns="http://covid19/%09﻿">Administrative And Support Service Activities</Industry>
+	<Scheme xmlns="http://covid19/Coronavirus%20Job%20Retention%20">75.7%</Scheme>
+	<holiday xmlns="http://covid19/Business%20rates%20">20.1%</holiday>
+	<payments xmlns="http://covid19/Deferring%20VAT%20">63.7%</payments>
+	<scheme xmlns="http://covid19/%09HMRC%20Time%20To%20Pay%20">20.5%</scheme>
+	<schemes xmlns="http://covid19/Government-funded%20small%20business%20grant%20or%20loan%20">21.8%</schemes>
+	<agreements xmlns="http://covid19/Accredited%20finance%20">12.3%</agreements>
+	<initiatives xmlns="http://covid19/%09We%20have%20not%20applied%20for%20any%20of%20these%20">13.9%</initiatives>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://covid19/industry/9">
+	<Industry xmlns="http://covid19/%09﻿">Education</Industry>
+	<Scheme xmlns="http://covid19/Coronavirus%20Job%20Retention%20">40.5%</Scheme>
+	<holiday xmlns="http://covid19/Business%20rates%20">8.5%</holiday>
+	<payments xmlns="http://covid19/Deferring%20VAT%20">26.3%</payments>
+	<scheme xmlns="http://covid19/%09HMRC%20Time%20To%20Pay%20">7.0%</scheme>
+	<schemes xmlns="http://covid19/Government-funded%20small%20business%20grant%20or%20loan%20">2.2%</schemes>
+	<agreements xmlns="http://covid19/Accredited%20finance%20">2.8%</agreements>
+	<initiatives xmlns="http://covid19/%09We%20have%20not%20applied%20for%20any%20of%20these%20">48.4%</initiatives>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://covid19/industry/10">
+	<Industry xmlns="http://covid19/%09﻿">Human Health And Social Work Activities</Industry>
+	<Scheme xmlns="http://covid19/Coronavirus%20Job%20Retention%20">34.5%</Scheme>
+	<holiday xmlns="http://covid19/Business%20rates%20">13.4%</holiday>
+	<payments xmlns="http://covid19/Deferring%20VAT%20">16.2%</payments>
+	<scheme xmlns="http://covid19/%09HMRC%20Time%20To%20Pay%20">6.3%</scheme>
+	<schemes xmlns="http://covid19/Government-funded%20small%20business%20grant%20or%20loan%20">10.6%</schemes>
+	<agreements xmlns="http://covid19/Accredited%20finance%20">2.8%</agreements>
+	<initiatives xmlns="http://covid19/%09We%20have%20not%20applied%20for%20any%20of%20these%20">55.6%</initiatives>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://covid19/industry/11">
+	<Industry xmlns="http://covid19/%09﻿">Arts, Entertainment And Recreation</Industry>
+	<Scheme xmlns="http://covid19/Coronavirus%20Job%20Retention%20">76.3%</Scheme>
+	<holiday xmlns="http://covid19/Business%20rates%20">57.2%</holiday>
+	<payments xmlns="http://covid19/Deferring%20VAT%20">61.2%</payments>
+	<scheme xmlns="http://covid19/%09HMRC%20Time%20To%20Pay%20">33.1%</scheme>
+	<schemes xmlns="http://covid19/Government-funded%20small%20business%20grant%20or%20loan%20">18.0%</schemes>
+	<agreements xmlns="http://covid19/Accredited%20finance%20">18.3%</agreements>
+	<initiatives xmlns="http://covid19/%09We%20have%20not%20applied%20for%20any%20of%20these%20">12.6%</initiatives>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://covid19/industry/12">
+	<Industry xmlns="http://covid19/%09﻿">All Industries</Industry>
+	<Scheme xmlns="http://covid19/Coronavirus%20Job%20Retention%20">67.2%</Scheme>
+	<holiday xmlns="http://covid19/Business%20rates%20">27.4%</holiday>
+	<payments xmlns="http://covid19/Deferring%20VAT%20">56.4%</payments>
+	<scheme xmlns="http://covid19/%09HMRC%20Time%20To%20Pay%20">22.3%</scheme>
+	<schemes xmlns="http://covid19/Government-funded%20small%20business%20grant%20or%20loan%20">11.2%</schemes>
+	<agreements xmlns="http://covid19/Accredited%20finance%20">9.9%</agreements>
+	<initiatives xmlns="http://covid19/%09We%20have%20not%20applied%20for%20any%20of%20these%20">20.7%</initiatives>
+</rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

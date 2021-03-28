@@ -1,0 +1,374 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "array",
+    "items": [
+      {
+        "type": "object",
+        "properties": {
+          "Industry": {
+            "type": "string"
+          },
+          "Workforce Size < 250": {
+            "type": "integer"
+          },
+          "Workforce Size 250 +": {
+            "type": "integer"
+          },
+          "Total": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "Industry",
+          "Workforce Size < 250",
+          "Workforce Size 250 +",
+          "Total"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "Industry": {
+            "type": "string"
+          },
+          "Workforce Size < 250": {
+            "type": "integer"
+          },
+          "Workforce Size 250 +": {
+            "type": "integer"
+          },
+          "Total": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "Industry",
+          "Workforce Size < 250",
+          "Workforce Size 250 +",
+          "Total"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "Industry": {
+            "type": "string"
+          },
+          "Workforce Size < 250": {
+            "type": "integer"
+          },
+          "Workforce Size 250 +": {
+            "type": "integer"
+          },
+          "Total": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "Industry",
+          "Workforce Size < 250",
+          "Workforce Size 250 +",
+          "Total"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "Industry": {
+            "type": "string"
+          },
+          "Workforce Size < 250": {
+            "type": "integer"
+          },
+          "Workforce Size 250 +": {
+            "type": "integer"
+          },
+          "Total": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "Industry",
+          "Workforce Size < 250",
+          "Workforce Size 250 +",
+          "Total"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "Industry": {
+            "type": "string"
+          },
+          "Workforce Size < 250": {
+            "type": "integer"
+          },
+          "Workforce Size 250 +": {
+            "type": "integer"
+          },
+          "Total": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "Industry",
+          "Workforce Size < 250",
+          "Workforce Size 250 +",
+          "Total"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "Industry": {
+            "type": "string"
+          },
+          "Workforce Size < 250": {
+            "type": "integer"
+          },
+          "Workforce Size 250 +": {
+            "type": "integer"
+          },
+          "Total": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "Industry",
+          "Workforce Size < 250",
+          "Workforce Size 250 +",
+          "Total"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "Industry": {
+            "type": "string"
+          },
+          "Workforce Size < 250": {
+            "type": "integer"
+          },
+          "Workforce Size 250 +": {
+            "type": "integer"
+          },
+          "Total": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "Industry",
+          "Workforce Size < 250",
+          "Workforce Size 250 +",
+          "Total"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "Industry": {
+            "type": "string"
+          },
+          "Workforce Size < 250": {
+            "type": "integer"
+          },
+          "Workforce Size 250 +": {
+            "type": "integer"
+          },
+          "Total": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "Industry",
+          "Workforce Size < 250",
+          "Workforce Size 250 +",
+          "Total"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "Industry": {
+            "type": "string"
+          },
+          "Workforce Size < 250": {
+            "type": "integer"
+          },
+          "Workforce Size 250 +": {
+            "type": "integer"
+          },
+          "Total": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "Industry",
+          "Workforce Size < 250",
+          "Workforce Size 250 +",
+          "Total"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "Industry": {
+            "type": "string"
+          },
+          "Workforce Size < 250": {
+            "type": "integer"
+          },
+          "Workforce Size 250 +": {
+            "type": "integer"
+          },
+          "Total": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "Industry",
+          "Workforce Size < 250",
+          "Workforce Size 250 +",
+          "Total"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "Industry": {
+            "type": "string"
+          },
+          "Workforce Size < 250": {
+            "type": "integer"
+          },
+          "Workforce Size 250 +": {
+            "type": "integer"
+          },
+          "Total": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "Industry",
+          "Workforce Size < 250",
+          "Workforce Size 250 +",
+          "Total"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "Industry": {
+            "type": "string"
+          },
+          "Workforce Size < 250": {
+            "type": "integer"
+          },
+          "Workforce Size 250 +": {
+            "type": "integer"
+          },
+          "Total": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "Industry",
+          "Workforce Size < 250",
+          "Workforce Size 250 +",
+          "Total"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "Industry": {
+            "type": "string"
+          },
+          "Workforce Size < 250": {
+            "type": "integer"
+          },
+          "Workforce Size 250 +": {
+            "type": "integer"
+          },
+          "Total": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "Industry",
+          "Workforce Size < 250",
+          "Workforce Size 250 +",
+          "Total"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "Industry": {
+            "type": "string"
+          },
+          "Workforce Size < 250": {
+            "type": "integer"
+          },
+          "Workforce Size 250 +": {
+            "type": "integer"
+          },
+          "Total": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "Industry",
+          "Workforce Size < 250",
+          "Workforce Size 250 +",
+          "Total"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "Industry": {
+            "type": "string"
+          },
+          "Workforce Size < 250": {
+            "type": "integer"
+          },
+          "Workforce Size 250 +": {
+            "type": "integer"
+          },
+          "Total": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "Industry",
+          "Workforce Size < 250",
+          "Workforce Size 250 +",
+          "Total"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "Industry": {
+            "type": "string"
+          },
+          "Workforce Size < 250": {
+            "type": "integer"
+          },
+          "Workforce Size 250 +": {
+            "type": "integer"
+          },
+          "Total": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "Industry",
+          "Workforce Size < 250",
+          "Workforce Size 250 +",
+          "Total"
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,513 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "array",
+    "items": [
+      {
+        "type": "object",
+        "properties": {
+          "Industry": {
+            "type": "string"
+          },
+          "Coronavirus Job Retention Scheme": {
+            "type": "string"
+          },
+          "Business rates holiday": {
+            "type": "string"
+          },
+          "Deferring VAT payments": {
+            "type": "string"
+          },
+          "HMRC Time To Pay scheme": {
+            "type": "string"
+          },
+          "Government-funded small business grant or loan schemes": {
+            "type": "string"
+          },
+          "Accredited finance agreements": {
+            "type": "string"
+          },
+          "We have not applied for any of these initiatives": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "Industry",
+          "Coronavirus Job Retention Scheme",
+          "Business rates holiday",
+          "Deferring VAT payments",
+          "HMRC Time To Pay scheme",
+          "Government-funded small business grant or loan schemes",
+          "Accredited finance agreements",
+          "We have not applied for any of these initiatives"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "Industry": {
+            "type": "string"
+          },
+          "Coronavirus Job Retention Scheme": {
+            "type": "string"
+          },
+          "Business rates holiday": {
+            "type": "string"
+          },
+          "Deferring VAT payments": {
+            "type": "string"
+          },
+          "HMRC Time To Pay scheme": {
+            "type": "string"
+          },
+          "Government-funded small business grant or loan schemes": {
+            "type": "string"
+          },
+          "Accredited finance agreements": {
+            "type": "string"
+          },
+          "We have not applied for any of these initiatives": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "Industry",
+          "Coronavirus Job Retention Scheme",
+          "Business rates holiday",
+          "Deferring VAT payments",
+          "HMRC Time To Pay scheme",
+          "Government-funded small business grant or loan schemes",
+          "Accredited finance agreements",
+          "We have not applied for any of these initiatives"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "Industry": {
+            "type": "string"
+          },
+          "Coronavirus Job Retention Scheme": {
+            "type": "string"
+          },
+          "Business rates holiday": {
+            "type": "string"
+          },
+          "Deferring VAT payments": {
+            "type": "string"
+          },
+          "HMRC Time To Pay scheme": {
+            "type": "string"
+          },
+          "Government-funded small business grant or loan schemes": {
+            "type": "string"
+          },
+          "Accredited finance agreements": {
+            "type": "string"
+          },
+          "We have not applied for any of these initiatives": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "Industry",
+          "Coronavirus Job Retention Scheme",
+          "Business rates holiday",
+          "Deferring VAT payments",
+          "HMRC Time To Pay scheme",
+          "Government-funded small business grant or loan schemes",
+          "Accredited finance agreements",
+          "We have not applied for any of these initiatives"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "Industry": {
+            "type": "string"
+          },
+          "Coronavirus Job Retention Scheme": {
+            "type": "string"
+          },
+          "Business rates holiday": {
+            "type": "string"
+          },
+          "Deferring VAT payments": {
+            "type": "string"
+          },
+          "HMRC Time To Pay scheme": {
+            "type": "string"
+          },
+          "Government-funded small business grant or loan schemes": {
+            "type": "string"
+          },
+          "Accredited finance agreements": {
+            "type": "string"
+          },
+          "We have not applied for any of these initiatives": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "Industry",
+          "Coronavirus Job Retention Scheme",
+          "Business rates holiday",
+          "Deferring VAT payments",
+          "HMRC Time To Pay scheme",
+          "Government-funded small business grant or loan schemes",
+          "Accredited finance agreements",
+          "We have not applied for any of these initiatives"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "Industry": {
+            "type": "string"
+          },
+          "Coronavirus Job Retention Scheme": {
+            "type": "string"
+          },
+          "Business rates holiday": {
+            "type": "string"
+          },
+          "Deferring VAT payments": {
+            "type": "string"
+          },
+          "HMRC Time To Pay scheme": {
+            "type": "string"
+          },
+          "Government-funded small business grant or loan schemes": {
+            "type": "string"
+          },
+          "Accredited finance agreements": {
+            "type": "string"
+          },
+          "We have not applied for any of these initiatives": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "Industry",
+          "Coronavirus Job Retention Scheme",
+          "Business rates holiday",
+          "Deferring VAT payments",
+          "HMRC Time To Pay scheme",
+          "Government-funded small business grant or loan schemes",
+          "Accredited finance agreements",
+          "We have not applied for any of these initiatives"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "Industry": {
+            "type": "string"
+          },
+          "Coronavirus Job Retention Scheme": {
+            "type": "string"
+          },
+          "Business rates holiday": {
+            "type": "string"
+          },
+          "Deferring VAT payments": {
+            "type": "string"
+          },
+          "HMRC Time To Pay scheme": {
+            "type": "string"
+          },
+          "Government-funded small business grant or loan schemes": {
+            "type": "string"
+          },
+          "Accredited finance agreements": {
+            "type": "string"
+          },
+          "We have not applied for any of these initiatives": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "Industry",
+          "Coronavirus Job Retention Scheme",
+          "Business rates holiday",
+          "Deferring VAT payments",
+          "HMRC Time To Pay scheme",
+          "Government-funded small business grant or loan schemes",
+          "Accredited finance agreements",
+          "We have not applied for any of these initiatives"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "Industry": {
+            "type": "string"
+          },
+          "Coronavirus Job Retention Scheme": {
+            "type": "string"
+          },
+          "Business rates holiday": {
+            "type": "string"
+          },
+          "Deferring VAT payments": {
+            "type": "string"
+          },
+          "HMRC Time To Pay scheme": {
+            "type": "string"
+          },
+          "Government-funded small business grant or loan schemes": {
+            "type": "string"
+          },
+          "Accredited finance agreements": {
+            "type": "string"
+          },
+          "We have not applied for any of these initiatives": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "Industry",
+          "Coronavirus Job Retention Scheme",
+          "Business rates holiday",
+          "Deferring VAT payments",
+          "HMRC Time To Pay scheme",
+          "Government-funded small business grant or loan schemes",
+          "Accredited finance agreements",
+          "We have not applied for any of these initiatives"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "Industry": {
+            "type": "string"
+          },
+          "Coronavirus Job Retention Scheme": {
+            "type": "string"
+          },
+          "Business rates holiday": {
+            "type": "string"
+          },
+          "Deferring VAT payments": {
+            "type": "string"
+          },
+          "HMRC Time To Pay scheme": {
+            "type": "string"
+          },
+          "Government-funded small business grant or loan schemes": {
+            "type": "string"
+          },
+          "Accredited finance agreements": {
+            "type": "string"
+          },
+          "We have not applied for any of these initiatives": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "Industry",
+          "Coronavirus Job Retention Scheme",
+          "Business rates holiday",
+          "Deferring VAT payments",
+          "HMRC Time To Pay scheme",
+          "Government-funded small business grant or loan schemes",
+          "Accredited finance agreements",
+          "We have not applied for any of these initiatives"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "Industry": {
+            "type": "string"
+          },
+          "Coronavirus Job Retention Scheme": {
+            "type": "string"
+          },
+          "Business rates holiday": {
+            "type": "string"
+          },
+          "Deferring VAT payments": {
+            "type": "string"
+          },
+          "HMRC Time To Pay scheme": {
+            "type": "string"
+          },
+          "Government-funded small business grant or loan schemes": {
+            "type": "string"
+          },
+          "Accredited finance agreements": {
+            "type": "string"
+          },
+          "We have not applied for any of these initiatives": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "Industry",
+          "Coronavirus Job Retention Scheme",
+          "Business rates holiday",
+          "Deferring VAT payments",
+          "HMRC Time To Pay scheme",
+          "Government-funded small business grant or loan schemes",
+          "Accredited finance agreements",
+          "We have not applied for any of these initiatives"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "Industry": {
+            "type": "string"
+          },
+          "Coronavirus Job Retention Scheme": {
+            "type": "string"
+          },
+          "Business rates holiday": {
+            "type": "string"
+          },
+          "Deferring VAT payments": {
+            "type": "string"
+          },
+          "HMRC Time To Pay scheme": {
+            "type": "string"
+          },
+          "Government-funded small business grant or loan schemes": {
+            "type": "string"
+          },
+          "Accredited finance agreements": {
+            "type": "string"
+          },
+          "We have not applied for any of these initiatives": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "Industry",
+          "Coronavirus Job Retention Scheme",
+          "Business rates holiday",
+          "Deferring VAT payments",
+          "HMRC Time To Pay scheme",
+          "Government-funded small business grant or loan schemes",
+          "Accredited finance agreements",
+          "We have not applied for any of these initiatives"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "Industry": {
+            "type": "string"
+          },
+          "Coronavirus Job Retention Scheme": {
+            "type": "string"
+          },
+          "Business rates holiday": {
+            "type": "string"
+          },
+          "Deferring VAT payments": {
+            "type": "string"
+          },
+          "HMRC Time To Pay scheme": {
+            "type": "string"
+          },
+          "Government-funded small business grant or loan schemes": {
+            "type": "string"
+          },
+          "Accredited finance agreements": {
+            "type": "string"
+          },
+          "We have not applied for any of these initiatives": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "Industry",
+          "Coronavirus Job Retention Scheme",
+          "Business rates holiday",
+          "Deferring VAT payments",
+          "HMRC Time To Pay scheme",
+          "Government-funded small business grant or loan schemes",
+          "Accredited finance agreements",
+          "We have not applied for any of these initiatives"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "Industry": {
+            "type": "string"
+          },
+          "Coronavirus Job Retention Scheme": {
+            "type": "string"
+          },
+          "Business rates holiday": {
+            "type": "string"
+          },
+          "Deferring VAT payments": {
+            "type": "string"
+          },
+          "HMRC Time To Pay scheme": {
+            "type": "string"
+          },
+          "Government-funded small business grant or loan schemes": {
+            "type": "string"
+          },
+          "Accredited finance agreements": {
+            "type": "string"
+          },
+          "We have not applied for any of these initiatives": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "Industry",
+          "Coronavirus Job Retention Scheme",
+          "Business rates holiday",
+          "Deferring VAT payments",
+          "HMRC Time To Pay scheme",
+          "Government-funded small business grant or loan schemes",
+          "Accredited finance agreements",
+          "We have not applied for any of these initiatives"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "Industry": {
+            "type": "string"
+          },
+          "Coronavirus Job Retention Scheme": {
+            "type": "string"
+          },
+          "Business rates holiday": {
+            "type": "string"
+          },
+          "Deferring VAT payments": {
+            "type": "string"
+          },
+          "HMRC Time To Pay scheme": {
+            "type": "string"
+          },
+          "Government-funded small business grant or loan schemes": {
+            "type": "string"
+          },
+          "Accredited finance agreements": {
+            "type": "string"
+          },
+          "We have not applied for any of these initiatives": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "Industry",
+          "Coronavirus Job Retention Scheme",
+          "Business rates holiday",
+          "Deferring VAT payments",
+          "HMRC Time To Pay scheme",
+          "Government-funded small business grant or loan schemes",
+          "Accredited finance agreements",
+          "We have not applied for any of these initiatives"
+        ]
+      }
+    ]
+  }

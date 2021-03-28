@@ -1,0 +1,305 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "array",
+    "items": [
+      {
+        "type": "object",
+        "properties": {
+          "Industry": {
+            "type": "string"
+          },
+          "Continuing to trade": {
+            "type": "string"
+          },
+          "Has permanently ceased trading **": {
+            "type": "string"
+          },
+          "Has temporarily closed or temporarily paused trading": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "Industry",
+          "Continuing to trade",
+          "Has permanently ceased trading **",
+          "Has temporarily closed or temporarily paused trading"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "Industry": {
+            "type": "string"
+          },
+          "Continuing to trade": {
+            "type": "string"
+          },
+          "Has permanently ceased trading **": {
+            "type": "string"
+          },
+          "Has temporarily closed or temporarily paused trading": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "Industry",
+          "Continuing to trade",
+          "Has permanently ceased trading **",
+          "Has temporarily closed or temporarily paused trading"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "Industry": {
+            "type": "string"
+          },
+          "Continuing to trade": {
+            "type": "string"
+          },
+          "Has permanently ceased trading **": {
+            "type": "string"
+          },
+          "Has temporarily closed or temporarily paused trading": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "Industry",
+          "Continuing to trade",
+          "Has permanently ceased trading **",
+          "Has temporarily closed or temporarily paused trading"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "Industry": {
+            "type": "string"
+          },
+          "Continuing to trade": {
+            "type": "string"
+          },
+          "Has permanently ceased trading **": {
+            "type": "string"
+          },
+          "Has temporarily closed or temporarily paused trading": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "Industry",
+          "Continuing to trade",
+          "Has permanently ceased trading **",
+          "Has temporarily closed or temporarily paused trading"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "Industry": {
+            "type": "string"
+          },
+          "Continuing to trade": {
+            "type": "string"
+          },
+          "Has permanently ceased trading **": {
+            "type": "string"
+          },
+          "Has temporarily closed or temporarily paused trading": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "Industry",
+          "Continuing to trade",
+          "Has permanently ceased trading **",
+          "Has temporarily closed or temporarily paused trading"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "Industry": {
+            "type": "string"
+          },
+          "Continuing to trade": {
+            "type": "string"
+          },
+          "Has permanently ceased trading **": {
+            "type": "string"
+          },
+          "Has temporarily closed or temporarily paused trading": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "Industry",
+          "Continuing to trade",
+          "Has permanently ceased trading **",
+          "Has temporarily closed or temporarily paused trading"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "Industry": {
+            "type": "string"
+          },
+          "Continuing to trade": {
+            "type": "string"
+          },
+          "Has permanently ceased trading **": {
+            "type": "string"
+          },
+          "Has temporarily closed or temporarily paused trading": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "Industry",
+          "Continuing to trade",
+          "Has permanently ceased trading **",
+          "Has temporarily closed or temporarily paused trading"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "Industry": {
+            "type": "string"
+          },
+          "Continuing to trade": {
+            "type": "string"
+          },
+          "Has permanently ceased trading **": {
+            "type": "string"
+          },
+          "Has temporarily closed or temporarily paused trading": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "Industry",
+          "Continuing to trade",
+          "Has permanently ceased trading **",
+          "Has temporarily closed or temporarily paused trading"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "Industry": {
+            "type": "string"
+          },
+          "Continuing to trade": {
+            "type": "string"
+          },
+          "Has permanently ceased trading **": {
+            "type": "string"
+          },
+          "Has temporarily closed or temporarily paused trading": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "Industry",
+          "Continuing to trade",
+          "Has permanently ceased trading **",
+          "Has temporarily closed or temporarily paused trading"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "Industry": {
+            "type": "string"
+          },
+          "Continuing to trade": {
+            "type": "string"
+          },
+          "Has permanently ceased trading **": {
+            "type": "string"
+          },
+          "Has temporarily closed or temporarily paused trading": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "Industry",
+          "Continuing to trade",
+          "Has permanently ceased trading **",
+          "Has temporarily closed or temporarily paused trading"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "Industry": {
+            "type": "string"
+          },
+          "Continuing to trade": {
+            "type": "string"
+          },
+          "Has permanently ceased trading **": {
+            "type": "string"
+          },
+          "Has temporarily closed or temporarily paused trading": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "Industry",
+          "Continuing to trade",
+          "Has permanently ceased trading **",
+          "Has temporarily closed or temporarily paused trading"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "Industry": {
+            "type": "string"
+          },
+          "Continuing to trade": {
+            "type": "string"
+          },
+          "Has permanently ceased trading **": {
+            "type": "string"
+          },
+          "Has temporarily closed or temporarily paused trading": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "Industry",
+          "Continuing to trade",
+          "Has permanently ceased trading **",
+          "Has temporarily closed or temporarily paused trading"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "Industry": {
+            "type": "string"
+          },
+          "Continuing to trade": {
+            "type": "string"
+          },
+          "Has permanently ceased trading **": {
+            "type": "string"
+          },
+          "Has temporarily closed or temporarily paused trading": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "Industry",
+          "Continuing to trade",
+          "Has permanently ceased trading **",
+          "Has temporarily closed or temporarily paused trading"
+        ]
+      }
+    ]
+  }
